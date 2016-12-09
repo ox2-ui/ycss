@@ -1,0 +1,61 @@
+/* ycss Border */
+
+.border\:none { border: 0 } /* added to top for specificity, allows to remove all and add specific side */
+
+.border\:all {
+  border-style: solid;
+  border-width: var(--border-width);
+}
+
+.border\:top {
+  border-top-style: solid;
+  border-top-width: var(--border-width);
+}
+
+.border\:right {
+  border-right-style: solid;
+  border-right-width: var(--border-width);
+}
+
+.border\:bottom {
+  border-bottom-style: solid;
+  border-bottom-width: var(--border-width);
+}
+
+.border\:left {
+  border-left-style: solid;
+  border-left-width: var(--border-width);
+}
+
+.border\:solid { border-style: solid; }
+.border\:dotted { border-style: dotted; }
+.border\:dashed { border-style: dashed; }
+
+.border\:2 { border-width: 2px; }
+.border\:3 { border-width: 3px; }
+.border\:4 { border-width: 4px; }
+.border\:5 { border-width: 5px; }
+
+.border\:circle  { border-radius: 50% }
+.border\:rounded { border-radius: var(--border-radius) }
+
+.border\:rounded-top { border-radius: var(--border-radius) var(--border-radius) 0 0 }
+.border\:rounded-right { border-radius: 0 var(--border-radius) var(--border-radius) 0 }
+.border\:rounded-bottom { border-radius: 0 0 var(--border-radius) var(--border-radius) }
+.border\:rounded-left { border-radius: var(--border-radius) 0 0 var(--border-radius) }
+
+.border\:not-rounded { border-radius: 0 }
+
+.border\:top-none { border-top: none; }
+.border\:right-none { border-right: none; }
+.border\:left-none { border-left: none; }
+.border\:bottom-none { border-bottom: none; }
+
+.outline\:none { outline: none; }
+
+:root {
+  --border-width: 1px;
+  --border-radius: 3px;
+}
+
+

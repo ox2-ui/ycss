@@ -1,0 +1,77 @@
+/* ycss Typography */
+
+.text\:thin    { font-weight: 100; }
+.text\:light   { font-weight: 300; }
+.text\:regular { font-weight: 400 }
+.text\:medium  { font-weight: 500; }
+.text\:bold    { font-weight: 700 }
+.text\:black   { font-weight: 900; }
+.text\:italic  { font-style: italic }
+
+.text\:caps       { text-transform: uppercase; letter-spacing: 2em; }
+.text\:uppercase  { text-transform: uppercase; }
+.text\:capitalize { text-transform: capitalize; }
+.text\:lowercase  { text-transform: lowercase; }
+
+.text\:left     { text-align: left }
+.text\:right    { text-align: right }
+.text\:center   { text-align: center }
+.text\:justify  { text-align: justify }
+
+.text\:nowrap     { white-space: nowrap }
+.text\:break-word { word-wrap: break-word }
+
+.text\:truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.text\:list-none { list-style: none }
+
+.text\:underline { text-decoration: underline }
+.text\:none      { text-decoration: none }
+
+.font\:inherit { font-family: inherit }
+.font\:roboto  { font-family: Roboto }
+.font\:roboto-condensed { font-family: Roboto Condensed }
+
+.select\:text { user-select: text }
+.select\:none { user-select: none }
+
+.text\:line-1 { line-height: var(--line-height-1) }
+.text\:line-2 { line-height: var(--line-height-2) }
+.text\:line-3 { line-height: var(--line-height-3) }
+.text\:line-4 { line-height: var(--line-height-4) }
+
+/* Type scale */
+
+.text\:inherit { font-size: inherit }
+
+.text\:h1 { font-size: var(--h1) }
+.text\:h2 { font-size: var(--h2) }
+.text\:h3 { font-size: var(--h3) }
+.text\:h4 { font-size: var(--h4) }
+.text\:h5 { font-size: var(--h5) }
+.text\:h6 { font-size: var(--h6) }
+
+.cursor\:text { cursor: text }
+.cursor\:default { cursor: default }
+.cursor\:pointer { cursor: pointer }
+
+:root {
+  --line-height-1: 1;
+  --line-height-2: 1.125;
+  --line-height-3: 1.25;
+  --line-height-4: 1.5;
+
+  --h1: 2rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --h4: 1rem;
+  --h5: .875rem;
+  --h6: .75rem;
+
+}

@@ -1,0 +1,112 @@
+/* ycss Border */
+
+.display\:flex { display: flex }
+
+.flex\:initial { flex: initial; }
+.flex\:none { flex: none }
+
+.flex\:0  { flex: 0; }
+.flex\:1  { flex: 1; }
+.flex\:2  { flex: 2; }
+.flex\:3  { flex: 3; }
+.flex\:4  { flex: 4; }
+.flex\:5  { flex: 5; }
+.flex\:6  { flex: 6; }
+.flex\:7  { flex: 7; }
+.flex\:8  { flex: 8; }
+.flex\:9  { flex: 9; }
+.flex\:10 { flex: 10; }
+
+.flex\:row            { flex-direction: row }
+.flex\:row-reverse    { flex-direction: row-reverse }
+.flex\:column         { flex-direction: column }
+.flex\:column-reverse { flex-direction: column-reverse }
+
+.flex\:wrap            { flex-wrap: wrap }
+.flex\:no-wrap         { flex-wrap: nowrap }
+.flex\:wrap-reverse    { flex-wrap: wrap-reverse }
+
+.flex\:items-start    { align-items: flex-start }
+.flex\:items-end      { align-items: flex-end }
+.flex\:items-center   { align-items: center }
+.flex\:items-baseline { align-items: baseline }
+.flex\:items-stretch  { align-items: stretch }
+
+.flex\:self-auto     { align-self: auto }
+.flex\:self-start    { align-self: flex-start }
+.flex\:self-end      { align-self: flex-end }
+.flex\:self-center   { align-self: center }
+.flex\:self-baseline { align-self: baseline }
+.flex\:self-stretch  { align-self: stretch }
+
+.flex\:content-start   { justify-content: flex-start }
+.flex\:content-end     { justify-content: flex-end }
+.flex\:content-center  { justify-content: center }
+.flex\:content-between { justify-content: space-between }
+.flex\:content-around  { justify-content: space-around }
+
+.flex\:align-start   { align-content: flex-start }
+.flex\:align-end     { align-content: flex-end }
+.flex\:align-center  { align-content: center }
+.flex\:align-between { align-content: space-between }
+.flex\:align-around  { align-content: space-around }
+.flex\:align-stretch { align-content: stretch }
+
+/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
+.flex\:auto {
+  flex: 1 1 auto;
+  min-width: 0; /* 1 */
+  min-height: 0; /* 1 */
+}
+
+.flex\:0-auto {
+  flex: 0 0 auto;
+  min-width: 0; /* 1 */
+  min-height: 0; /* 1 */
+}
+
+/*XXX temp hack for iOS 8 to replace inline styles with autoprefixed classes*/
+
+.flex\:34px {
+  flex: 0 0 34px;
+}
+
+.flex\:44px {
+  flex: 0 0 44px;
+}
+
+.flex\:64px {
+  flex: 0 0 64px;
+}
+
+.flex\:20px {
+  flex: 0 0 20px;
+}
+
+.flex\:50px {
+  flex: 0 0 50px;
+}
+
+.flex\:60px {
+  flex: 0 0 60px;
+}
+
+.flex\:70px {
+  flex: 0 0 70px;
+}
+
+.flex\:80px {
+  flex: 0 0 80px;
+}
+
+.flex\:260px {
+  flex: 0 0 260px;
+}
+
+
+.flex\:order-0 { order: 0 }
+.flex\:order-1 { order: 1 }
+.flex\:order-2 { order: 2 }
+.flex\:order-3 { order: 3 }
+.flex\:order-last { order: 99999 }
+

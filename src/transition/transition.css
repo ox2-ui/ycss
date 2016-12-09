@@ -1,0 +1,32 @@
+/* ycss Transition */
+
+.transition\:none { transition: none; }
+
+.transition\:300ms { transition-duration: 300ms; }
+.transition\:400ms { transition-duration: 400ms; }
+.transition\:500ms { transition-duration: 500ms; }
+
+.transition\:opacity { transition-property: opacity; }
+.transition\:transform { transition-property: transform; }
+
+.transition\:ease { transition-timing-function: ease; }
+.transition\:ease-in { transition-timing-function: ease-in; }
+.transition\:ease-out { transition-timing-function: ease-out; }
+.transition\:ease-in-out { transition-timing-function: ease-in-out; }
+
+.transition\:easeOutQuint {
+	transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1); /* easeOutQuint */
+}
+
+.transition\:easeInOutBack {
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); /* easeInOutBack */
+}
+
+.transition\:easeOutQuad {
+	transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); /* easeOutQuad */
+}
+
+.transition\:easeOutCubic {
+	transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+}
+

@@ -1,0 +1,45 @@
+/* ycss Layout */
+
+.display\:inline       { display: inline }
+.display\:block        { display: block }
+.display\:inline-block { display: inline-block }
+.display\:table        { display: table }
+.display\:table-cell   { display: table-cell }
+
+.overflow\:hidden    { overflow: hidden; }
+.overflow\:visible   { overflow: visible; }
+.overflow\:visible\! { overflow: visible !important; }
+.overflow\:scroll    { overflow: scroll; }
+.overflow\:auto      { overflow: auto; }
+
+.overflow-x\:hidden  { overflow-x: hidden; }
+.overflow-x\:visible { overflow-x: visible; }
+.overflow-x\:scroll  { overflow-x: scroll; }
+.overflow-x\:auto    { overflow-x: auto; }
+
+.overflow-y\:visible { overflow-y: visible; }
+.overflow-y\:hidden  { overflow-y: hidden; }
+.overflow-y\:scroll  { overflow-y: scroll; }
+.overflow-y\:auto    { overflow-y: auto; }
+
+.float\:left  { float: left }
+.float\:right { float: right }
+
+.h\:28 { height: 28px }
+.h\:34 { height: 34px }
+.h\:44 { height: 44px }
+.h\:50 { height: 50px }
+
+.w\:100p { width: 100% }
+.h\:100p { height: 100% }
+.h\:auto { height: auto }
+
+.max-w\:100p { max-width: 100% }
+.max-h\:100p { max-height: 100% }
+.min-w\:0 	 { min-width: 0 }
+
+.box\:border-box { box-sizing: border-box }
+
+.opacity\:40 { opacity: 0.4; }
+.opacity\:50 { opacity: 0.5; }
+.opacity\:75 { opacity: 0.75; }

@@ -1,0 +1,50 @@
+/* ycss Padding */
+
+.padding\:0   { padding: 0 }
+.padding-t\:0 { padding-top: 0 }
+.padding-r\:0 { padding-right: 0 }
+.padding-b\:0 { padding-bottom: 0 }
+.padding-l\:0 { padding-left: 0 }
+.padding-x\:0 { padding-left: 0; padding-right:  0 }
+.padding-y\:0 { padding-top: 0;  padding-bottom: 0 }
+
+.padding\:5   { padding:        5px }
+.padding-t\:5 { padding-top:    5px }
+.padding-r\:5 { padding-right:  5px }
+.padding-b\:5 { padding-bottom: 5px }
+.padding-l\:5 { padding-left:   5px }
+.padding-x\:5 { padding-left:   5px; padding-right:  5px }
+.padding-y\:5 { padding-top:    5px; padding-bottom: 5px }
+
+.padding\:7   { padding:        7px }
+.padding-t\:7 { padding-top:    7px }
+.padding-r\:7 { padding-right:  7px }
+.padding-b\:7 { padding-bottom: 7px }
+.padding-l\:7 { padding-left:   7px }
+.padding-x\:7 { padding-left:   7px; padding-right:  7px }
+.padding-y\:7 { padding-top:    7px; padding-bottom: 7px }
+
+.padding\:10   { padding:        10px }
+.padding-t\:10 { padding-top:    10px }
+.padding-r\:10 { padding-right:  10px }
+.padding-b\:10 { padding-bottom: 10px }
+.padding-l\:10 { padding-left:   10px }
+.padding-x\:10 { padding-left:   10px; padding-right:  10px }
+.padding-y\:10 { padding-top:    10px; padding-bottom: 10px }
+
+.padding\:20   { padding:        20px }
+.padding-t\:20 { padding-top:    20px }
+.padding-r\:20 { padding-right:  20px }
+.padding-b\:20 { padding-bottom: 20px }
+.padding-l\:20 { padding-left:   20px }
+.padding-x\:20 { padding-left:   20px; padding-right:  20px }
+.padding-y\:20 { padding-top:    20px; padding-bottom: 20px }
+
+.padding\:40   { padding:        40px }
+.padding-t\:40 { padding-top:    40px }
+.padding-r\:40 { padding-right:  40px }
+.padding-b\:40 { padding-bottom: 40px }
+.padding-l\:40 { padding-left:   40px }
+.padding-x\:40 { padding-left:   40px; padding-right:  40px }
+.padding-y\:40 { padding-top:    40px; padding-bottom: 40px }
+

@@ -1,0 +1,108 @@
+/* ycss Animation */
+
+.animation\:none { animation: none !important; }
+
+.animation\:1s {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animation\:2s {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.animation\:infinite { animation-iteration-count: infinite; }
+
+.animation\:ease        { animation-timing-function: ease; }
+.animation\:ease-in     { animation-timing-function: ease-in; }
+.animation\:ease-out    { animation-timing-function: ease-out; }
+.animation\:ease-in-out { animation-timing-function: ease-in-out; }
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1.0; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1.0; }
+  to { opacity: 0; }
+}
+
+@keyframes fadeInOut {
+  from { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  to { opacity: 1.0; }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes zoomInOpen {
+  0% { opacity: 0; transform: scale3d(0, 0, 1);}
+  100% { opacity: 1; transform: scale3d(1, 1, 1); }
+}
+
+@keyframes zoomInClose {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: scale3d(0.5, 0.5, 1); }
+}
+
+@keyframes slideFromTopOpen {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes slideFromTopClose {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(0, -100%, 0); }
+}
+
+.animation\:tada              { animation-name: tada; }
+.animation\:pulse             { animation-name: pulse; }
+.animation\:fadeIn            { animation-name: fadeIn; }
+.animation\:fadeOut           { animation-name: fadeOut; }
+.animation\:fadeInOut         { animation-name: fadeInOut; }
+.animation\:flash             { animation-name: flash; }
+.animation\:fadeInOpen        { animation-name: fadeIn; }
+.animation\:fadeInClose       { animation-name: fadeOut; }
+.animation\:zoomInOpen        { animation-name: zoomInOpen; }
+.animation\:zoomInClose       { animation-name: zoomInClose; }
+.animation\:slideFromTopOpen  { animation-name: slideFromTopOpen; }
+.animation\:slideFromTopClose { animation-name: slideFromTopClose; }
+
