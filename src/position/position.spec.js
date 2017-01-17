@@ -60,6 +60,26 @@ describe('position', () => {
     expect(div.computedStyle.left).to.equal('0px');
   });
 
+  it('should set top auto', () => {
+    div.className = 'top:auto';
+    expect(div.computedStyle.top).to.equal('auto');
+  });
+
+  it('should set right auto', () => {
+    div.className = 'right:auto';
+    expect(div.computedStyle.right).to.equal('auto');
+  });
+
+  it('should set bottom auto', () => {
+    div.className = 'bottom:auto';
+    expect(div.computedStyle.bottom).to.equal('auto');
+  });
+
+  it('should set left auto', () => {
+    div.className = 'left:auto';
+    expect(div.computedStyle.left).to.equal('auto');
+  });
+
   it('should set z-index 1', () => {
     div.className = 'z:1';
     expect(div.computedStyle.zIndex).to.equal('1');
