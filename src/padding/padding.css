@@ -32,6 +32,14 @@
 .padding-x\:10 { padding-left:   10px; padding-right:  10px }
 .padding-y\:10 { padding-top:    10px; padding-bottom: 10px }
 
+.padding\:15   { padding:        15px }
+.padding-t\:15 { padding-top:    15px }
+.padding-r\:15 { padding-right:  15px }
+.padding-b\:15 { padding-bottom: 15px }
+.padding-l\:15 { padding-left:   15px }
+.padding-x\:15 { padding-left:   15px; padding-right:  15px }
+.padding-y\:15 { padding-top:    15px; padding-bottom: 15px }
+
 .padding\:20   { padding:        20px }
 .padding-t\:20 { padding-top:    20px }
 .padding-r\:20 { padding-right:  20px }
@@ -39,6 +47,14 @@
 .padding-l\:20 { padding-left:   20px }
 .padding-x\:20 { padding-left:   20px; padding-right:  20px }
 .padding-y\:20 { padding-top:    20px; padding-bottom: 20px }
+
+.padding\:25   { padding:        25px }
+.padding-t\:25 { padding-top:    25px }
+.padding-r\:25 { padding-right:  25px }
+.padding-b\:25 { padding-bottom: 25px }
+.padding-l\:25 { padding-left:   25px }
+.padding-x\:25 { padding-left:   25px; padding-right:  25px }
+.padding-y\:25 { padding-top:    25px; padding-bottom: 25px }
 
 .padding\:40   { padding:        40px }
 .padding-t\:40 { padding-top:    40px }

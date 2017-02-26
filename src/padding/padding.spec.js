@@ -208,6 +208,45 @@ describe('padding', () => {
     });
   });
 
+  describe('padding:15', () => {
+    it('should set padding 15px', () => {
+      div.className = 'padding:15';
+      expect(div.computedStyle.paddingTop).to.equal('15px');
+    });
+
+    it('should set padding-top 15px', () => {
+      div.className = 'padding-t:15';
+      expect(div.computedStyle.paddingTop).to.equal('15px');
+    });
+
+    it('should set padding-right 15px', () => {
+      div.className = 'padding-r:15';
+      expect(div.computedStyle.paddingRight).to.equal('15px');
+    });
+
+    it('should set padding-bottom 15px', () => {
+      div.className = 'padding-b:15';
+      expect(div.computedStyle.paddingBottom).to.equal('15px');
+    });
+
+    it('should set padding-left 15px', () => {
+      div.className = 'padding-l:15';
+      expect(div.computedStyle.paddingLeft).to.equal('15px');
+    });
+
+    it('should set padding-left and padding-right 15px', () => {
+      div.className = 'padding-x:15';
+      expect(div.computedStyle.paddingLeft).to.equal('15px');
+      expect(div.computedStyle.paddingRight).to.equal('15px');
+    });
+
+    it('should set padding-top and padding-bottom 15px', () => {
+      div.className = 'padding-y:15';
+      expect(div.computedStyle.paddingTop).to.equal('15px');
+      expect(div.computedStyle.paddingBottom).to.equal('15px');
+    });
+  });
+
   describe('padding:20', () => {
     it('should set padding 20px', () => {
       div.className = 'padding:20';
@@ -244,6 +283,45 @@ describe('padding', () => {
       div.className = 'padding-y:20';
       expect(div.computedStyle.paddingTop).to.equal('20px');
       expect(div.computedStyle.paddingBottom).to.equal('20px');
+    });
+  });
+
+  describe('padding:25', () => {
+    it('should set padding 25px', () => {
+      div.className = 'padding:25';
+      expect(div.computedStyle.paddingTop).to.equal('25px');
+    });
+
+    it('should set padding-top 25px', () => {
+      div.className = 'padding-t:25';
+      expect(div.computedStyle.paddingTop).to.equal('25px');
+    });
+
+    it('should set padding-right 25px', () => {
+      div.className = 'padding-r:25';
+      expect(div.computedStyle.paddingRight).to.equal('25px');
+    });
+
+    it('should set padding-bottom 25px', () => {
+      div.className = 'padding-b:25';
+      expect(div.computedStyle.paddingBottom).to.equal('25px');
+    });
+
+    it('should set padding-left 25px', () => {
+      div.className = 'padding-l:25';
+      expect(div.computedStyle.paddingLeft).to.equal('25px');
+    });
+
+    it('should set padding-left and padding-right 25px', () => {
+      div.className = 'padding-x:25';
+      expect(div.computedStyle.paddingLeft).to.equal('25px');
+      expect(div.computedStyle.paddingRight).to.equal('25px');
+    });
+
+    it('should set padding-top and padding-bottom 25px', () => {
+      div.className = 'padding-y:25';
+      expect(div.computedStyle.paddingTop).to.equal('25px');
+      expect(div.computedStyle.paddingBottom).to.equal('25px');
     });
   });
 
