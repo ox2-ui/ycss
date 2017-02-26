@@ -202,6 +202,45 @@ describe('margin', () => {
     });
   });
 
+  describe('margin:15', () => {
+    it('should set margin 15px', () => {
+      div.className = 'margin:15';
+      expect(div.computedStyle.marginTop).to.equal('15px');
+    });
+
+    it('should set margin-top 15px', () => {
+      div.className = 'margin-t:15';
+      expect(div.computedStyle.marginTop).to.equal('15px');
+    });
+
+    it('should set margin-right 15px', () => {
+      div.className = 'margin-r:15';
+      expect(div.computedStyle.marginRight).to.equal('15px');
+    });
+
+    it('should set margin-bottom 15px', () => {
+      div.className = 'margin-b:15';
+      expect(div.computedStyle.marginBottom).to.equal('15px');
+    });
+
+    it('should set margin-left 15px', () => {
+      div.className = 'margin-l:15';
+      expect(div.computedStyle.marginLeft).to.equal('15px');
+    });
+
+    it('should set margin-left and margin-right 15px', () => {
+      h1.className = 'margin-x:15';
+      expect(h1.computedStyle.marginLeft).to.equal('15px');
+      expect(h1.computedStyle.marginRight).to.equal('15px');
+    });
+
+    it('should set margin-top and margin-bottom 15px', () => {
+      h1.className = 'margin-y:15';
+      expect(h1.computedStyle.marginTop).to.equal('15px');
+      expect(h1.computedStyle.marginBottom).to.equal('15px');
+    });
+  });
+
   describe('margin:20', () => {
     it('should set margin 20px', () => {
       div.className = 'margin:20';
@@ -238,6 +277,45 @@ describe('margin', () => {
       h1.className = 'margin-y:20';
       expect(h1.computedStyle.marginTop).to.equal('20px');
       expect(h1.computedStyle.marginBottom).to.equal('20px');
+    });
+  });
+
+  describe('margin:25', () => {
+    it('should set margin 25px', () => {
+      div.className = 'margin:25';
+      expect(div.computedStyle.marginTop).to.equal('25px');
+    });
+
+    it('should set margin-top 25px', () => {
+      div.className = 'margin-t:25';
+      expect(div.computedStyle.marginTop).to.equal('25px');
+    });
+
+    it('should set margin-right 25px', () => {
+      div.className = 'margin-r:25';
+      expect(div.computedStyle.marginRight).to.equal('25px');
+    });
+
+    it('should set margin-bottom 25px', () => {
+      div.className = 'margin-b:25';
+      expect(div.computedStyle.marginBottom).to.equal('25px');
+    });
+
+    it('should set margin-left 25px', () => {
+      div.className = 'margin-l:25';
+      expect(div.computedStyle.marginLeft).to.equal('25px');
+    });
+
+    it('should set margin-left and margin-right 25px', () => {
+      h1.className = 'margin-x:25';
+      expect(h1.computedStyle.marginLeft).to.equal('25px');
+      expect(h1.computedStyle.marginRight).to.equal('25px');
+    });
+
+    it('should set margin-top and margin-bottom 25px', () => {
+      h1.className = 'margin-y:25';
+      expect(h1.computedStyle.marginTop).to.equal('25px');
+      expect(h1.computedStyle.marginBottom).to.equal('25px');
     });
   });
 
