@@ -12,27 +12,27 @@ describe('position', () => {
   const div = addElement('div');
 
   it('should set position relative', () => {
-    div.className = 'pos:relative';
+    div.className = 'position:relative';
     expect(div.computedStyle.position).to.equal('relative');
   });
 
   it('should set position absolute', () => {
-    div.className = 'pos:absolute';
+    div.className = 'position:absolute';
     expect(div.computedStyle.position).to.equal('absolute');
   });
 
   it('should set position fixed', () => {
-    div.className = 'pos:fixed';
+    div.className = 'position:fixed';
     expect(div.computedStyle.position).to.equal('fixed');
   });
 
   it('should set position absolute ', () => {
-    div.className = 'pos:absolute';
+    div.className = 'position:absolute';
     expect(div.computedStyle.position).to.equal('absolute');
   });
 
   it('should set position absolute and all directions to 0', () => {
-    div.className = 'pos:absolute-0';
+    div.className = 'position:absolute-0';
     expect(div.computedStyle.position).to.equal('absolute');
     expect(div.computedStyle.top).to.equal('0px');
     expect(div.computedStyle.right).to.equal('0px');
@@ -98,5 +98,40 @@ describe('position', () => {
   it('should set z-index 4', () => {
     div.className = 'z:4';
     expect(div.computedStyle.zIndex).to.equal('4');
+  });
+
+  it('should set z-index 5', () => {
+    div.className = 'z:5';
+    expect(div.computedStyle.zIndex).to.equal('5');
+  });
+
+  /* Legacy */
+  it('should set position relative', () => {
+    div.className = 'pos:relative';
+    expect(div.computedStyle.position).to.equal('relative');
+  });
+
+  it('should set position absolute', () => {
+    div.className = 'pos:absolute';
+    expect(div.computedStyle.position).to.equal('absolute');
+  });
+
+  it('should set position fixed', () => {
+    div.className = 'pos:fixed';
+    expect(div.computedStyle.position).to.equal('fixed');
+  });
+
+  it('should set position absolute ', () => {
+    div.className = 'pos:absolute';
+    expect(div.computedStyle.position).to.equal('absolute');
+  });
+
+  it('should set position absolute and all directions to 0', () => {
+    div.className = 'pos:absolute-0';
+    expect(div.computedStyle.position).to.equal('absolute');
+    expect(div.computedStyle.top).to.equal('0px');
+    expect(div.computedStyle.right).to.equal('0px');
+    expect(div.computedStyle.bottom).to.equal('0px');
+    expect(div.computedStyle.left).to.equal('0px');
   });
 });

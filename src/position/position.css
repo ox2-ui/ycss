@@ -1,10 +1,10 @@
 /* ycss Position */
 
-.pos\:relative { position: relative }
-.pos\:absolute { position: absolute }
-.pos\:fixed    { position: fixed }
+.position\:relative { position: relative }
+.position\:absolute { position: absolute }
+.position\:fixed    { position: fixed }
 
-.pos\:absolute-0 {
+.position\:absolute-0 {
   position: absolute;
   top: 0;
   right: 0;
@@ -26,5 +26,17 @@
 .z\:2 { z-index: 2 }
 .z\:3 { z-index: 3 }
 .z\:4 { z-index: 4 }
+.z\:5 { z-index: 5 }
 
+/* Legacy Support */
+.pos\:relative { position: relative }
+.pos\:absolute { position: absolute }
+.pos\:fixed    { position: fixed }
 
+.pos\:absolute-0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
