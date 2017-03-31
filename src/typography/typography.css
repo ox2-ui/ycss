@@ -34,6 +34,8 @@
 .text\:underline { text-decoration: underline }
 .text\:none      { text-decoration: none }
 
+.text\:antialiased { -webkit-font-smoothing: antialiased }
+
 .font\:inherit { font-family: inherit }
 .font\:roboto  { font-family: Roboto }
 .font\:roboto-condensed { font-family: Roboto Condensed }
