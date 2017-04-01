@@ -104,6 +104,21 @@ describe('layout', () => {
     expect(div.computedStyle.float).to.equal('right');
   });
 
+  it('should set vertical-align middle', () => {
+    div.className = 'vertical-align:middle ';
+    expect(div.computedStyle.verticalAlign).to.equal('middle');
+  });
+
+  it('should set vertical-align sub', () => {
+    div.className = 'vertical-align:sub ';
+    expect(div.computedStyle.verticalAlign).to.equal('sub');
+  });
+
+  it('should set vertical-align text-bottom', () => {
+    div.className = 'vertical-align:text-bottom ';
+    expect(div.computedStyle.verticalAlign).to.equal('text-bottom');
+  });
+
   it('should set height 28px', () => {
     div.className = 'h:28';
     expect(div.computedStyle.height).to.equal('28px');

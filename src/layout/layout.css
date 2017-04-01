@@ -25,6 +25,10 @@
 .float\:left  { float: left }
 .float\:right { float: right }
 
+.vertical-align\:middle      {vertical-align: middle; }
+.vertical-align\:sub         {vertical-align: sub; }
+.vertical-align\:text-bottom {vertical-align: text-bottom; }
+
 .h\:28 { height: 28px }
 .h\:34 { height: 34px }
 .h\:44 { height: 44px }
