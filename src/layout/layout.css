@@ -25,6 +25,7 @@
 .float\:left  { float: left }
 .float\:right { float: right }
 
+.vertical-align\:baseline    {vertical-align: baseline; }
 .vertical-align\:middle      {vertical-align: middle; }
 .vertical-align\:sub         {vertical-align: sub; }
 .vertical-align\:text-bottom {vertical-align: text-bottom; }

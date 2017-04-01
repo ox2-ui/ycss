@@ -104,6 +104,11 @@ describe('layout', () => {
     expect(div.computedStyle.float).to.equal('right');
   });
 
+  it('should set vertical-align baseline', () => {
+    div.className = 'vertical-align:baseline ';
+    expect(div.computedStyle.verticalAlign).to.equal('baseline');
+  });
+
   it('should set vertical-align middle', () => {
     div.className = 'vertical-align:middle ';
     expect(div.computedStyle.verticalAlign).to.equal('middle');
