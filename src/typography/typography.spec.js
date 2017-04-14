@@ -91,7 +91,7 @@ describe('typography', () => {
 
   it('should truncate text', () => {
     h1.className = 'text:truncate';
-    expect(h1.computedStyle.maxWidth).to.equal('768px');
+    expect(h1.computedStyle.maxWidth).to.equal('100%');
     expect(h1.computedStyle.overflow).to.equal('hidden');
     expect(h1.computedStyle.textOverflow).to.equal('ellipsis');
     expect(h1.computedStyle.whiteSpace).to.equal('nowrap');
