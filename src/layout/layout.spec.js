@@ -109,6 +109,11 @@ describe('layout', () => {
     expect(div.computedStyle.verticalAlign).to.equal('baseline');
   });
 
+  it('should set vertical-align bottom', () => {
+    div.className = 'vertical-align:bottom ';
+    expect(div.computedStyle.verticalAlign).to.equal('bottom');
+  });
+
   it('should set vertical-align middle', () => {
     div.className = 'vertical-align:middle ';
     expect(div.computedStyle.verticalAlign).to.equal('middle');
@@ -119,9 +124,24 @@ describe('layout', () => {
     expect(div.computedStyle.verticalAlign).to.equal('sub');
   });
 
+  it('should set vertical-align super', () => {
+    div.className = 'vertical-align:super ';
+    expect(div.computedStyle.verticalAlign).to.equal('super');
+  });
+
   it('should set vertical-align text-bottom', () => {
     div.className = 'vertical-align:text-bottom ';
     expect(div.computedStyle.verticalAlign).to.equal('text-bottom');
+  });
+
+  it('should set vertical-align text-top', () => {
+    div.className = 'vertical-align:text-top ';
+    expect(div.computedStyle.verticalAlign).to.equal('text-top');
+  });
+
+  it('should set vertical-align top', () => {
+    div.className = 'vertical-align:top ';
+    expect(div.computedStyle.verticalAlign).to.equal('top');
   });
 
   it('should set height 28px', () => {
