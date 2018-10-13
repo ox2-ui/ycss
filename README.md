@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # ycss
 ![NPM version](https://img.shields.io/npm/v/@ox2/ycss.svg?style=flat)
 
